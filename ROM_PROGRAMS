@@ -1,1 +1,19 @@
+LDI A, #02
+LDI B, #08
+ADD A, B
+JMP 0x05
+ROM bytes:
 
+makefile
+Copy code
+00: C4
+01: 02
+02: C2
+03: 08
+04: 81
+05: F3
+06: 05
+LDI A, imm	C4 xx	Load immediate into A
+LDI B, imm	C2 xx	Load immediate into B
+ADD A, B	81	A ← A + B
+JMP addr	F3 xx	PC ← addr
