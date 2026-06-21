@@ -165,8 +165,3 @@ custom-8bit-cpu-logisim/
 └── README.md
 ```
 
----
-
-## License
-
-MIT — see [LICENSE](LICENSE). Copyright (c) 2026 Ahmad Zoabi.
